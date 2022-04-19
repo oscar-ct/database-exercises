@@ -52,8 +52,6 @@ INSERT INTO post_labels (post_id, label_id) VALUES (1,2);
 INSERT INTO post_labels (post_id, label_id) VALUES (1,3);
 
 
-SELECT
-
 
 DESC users;
 
