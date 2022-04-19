@@ -12,5 +12,5 @@ SELECT name AS 'Which albums were released in the 1990s' FROM albums WHERE relea
 
 SELECT name AS 'Which albums had less than 20 million certified sales' FROM albums WHERE sales < 20;
 
-SELECT name AS 'All the albums with a genre of "Rock".' FROM albums WHERE genre = 'Rock';
+SELECT name AS 'All the albums with a genre of "Rock".' FROM albums WHERE genre LIKE '%Rock%';
 
