@@ -15,6 +15,8 @@ SELECT first_name, last_name FROM employees WHERE last_name LIKE 'E%' AND last_n
 #///////////////////  Problem #5  ////////////////////////////////
 
 SELECT DISTINCT last_name FROM employees WHERE last_name NOT LIKE '%qu%' AND last_name LIKE '%q%';
+#OR
+SELECT last_name FROM employees WHERE last_name NOT LIKE '%qu%' AND last_name LIKE '%q%' GROUP BY last_name;
 
 #///////////////////  Problem #6  ////////////////////////////////
 
