@@ -14,8 +14,6 @@ WHERE d.dept_name = 'Research';
 
 
 
-
-
 # /////// same /////////
 # Traditional Join (ON)
 SELECT CONCAT(employees.last_name, ', ', employees.first_name) AS employee_name, salaries.salary AS salary FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no;
@@ -36,20 +34,11 @@ SELECT CONCAT(employees.last_name, ', ', employees.first_name) AS employee_name,
 
 
 
-
-
-
-
-
-
-
-
 # ////////////////////////////////  join_test_database  ///////////////////////////////////////
 
 USE join_test_db;
 
 SELECT users.name AS user_name, roles.name AS role_name FROM users LEFT JOIN roles ON users.role_id = roles.id;
-
 
 
 
